@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #F8F9FA;
+                margin: 0;
+                padding: 20px;
+            }
+
+            h1 {
+                text-align: center;
+                color: #333;
+            }
+
+            .menu {
+                max-width: 600px;
+                margin: auto;
+                padding: 20px;
+                background-color: #FFF;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                display: flex;
+                justify-content: space-between;
+            }
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            li {
+                margin: 10px 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: #007BFF;
+                font-size: 18px;
+                transition: color 0.3s;
+            }
+
+            a:hover {
+                color: #0056B3;
+                text-decoration: underline;
+            }
+
+            .left, .right {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .left {
+                align-items: flex-start;
+            }
+
+            .right {
+                align-items: flex-end;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Home</h1>
+
+        <div class="menu">
+            <div class="left">
+                <ul>
+                    <li>
+                        <a href="/subjects">View All Subjects</a>
+                    </li>
+                    <li>
+                        <a href="/subjects/create">Create Subject</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li>
+                        <a href="/students">View All Students</a>
+                    </li>
+                    <li>
+                        <a href="/students/create">Create Student</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+</html>
